@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif; }
+
+h1 {
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 27px;
+  margin-top: 4px;
+  margin-bottom: 12px; }
+
+@media (min-width: 1440px) {
+  h1 {
+    margin-left: 32px; } }
+
+h4 {
+  color: #00fff7 !important;
+  font-size: .9rem; }
+
+h5 {
+  color: white;
+  opacity: .8;
+  margin-left: 2px;
+  margin-top: 8px;
+  font-size: 1rem; }
+
+@media (min-width: 1440) {
+  h5 {
+    color: white;
+    opacity: .8;
+    margin-left: 2px;
+    margin-top: -2px;
+    font-size: 1rem; } }
+
+.contenedor {
+  width: 80%;
+  background-color: #14253d;
+  border-radius: 3%;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+@media (min-width: 1440px) {
+  .contenedor {
+    width: 22%; } }
+
+.contenedor p {
+  color: #8bacda;
+  opacity: .7;
+  font-size: 16px;
+  margin-left: 27px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  word-spacing: .08rem; }
+
+@media (min-width: 1440px) {
+  .contenedor p {
+    font-size: 16px;
+    margin-left: 32px; } }
+
+.centerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.centerDiv img {
+  margin: 25px;
+  border-radius: 3%; }
+
+.containerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .7rem; }
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex start;
+  margin-left: 27px;
+  gap: .5rem; }
+
+@media (min-width: 1440px) {
+  .flex1 {
+    margin-left: 32px; } }
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 60px;
+  gap: .5rem;
+  margin-top: 2px; }
+
+.flex2 p {
+  color: #8bacda !important;
+  margin-left: -2px;
+  margin-top: -2px; }
+
+hr {
+  width: 85%;
+  margin: auto;
+  margin-top: 5px;
+  border: 0.02rem solid #2f415b; }
+
+.footerClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  margin-left: 25px; }
+
+@media (min-width: 1440px) {
+  .footerClass {
+    margin-left: 32px; } }
+
+.footerClass p {
+  margin-left: 6px !important; }
+
+.footerClass h5 {
+  align-self: flex-start; }
+
+@media (min-width: 1440px) {
+  .footerClass h5 {
+    align-self: flex-start; } }
+
+.footerClass img {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 2px; }
