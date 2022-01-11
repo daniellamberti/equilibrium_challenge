@@ -26,7 +26,8 @@ h1 {
 
   @media (min-width: 1440px) {
   h1 {
-    margin-left: 32px; } }
+    margin-left: 35px;
+    text-align: left; } }
 
 h4 {
   color: #00fff7 !important;
@@ -82,7 +83,8 @@ h5 {
   @media (min-width: 1440px) {
   .contenedor p {
     font-size: 16px;
-    margin-left: 32px; } }
+    margin-left: 35px;
+    text-align: left; } }
 
 .centerDiv {
   display: flex;
@@ -104,9 +106,10 @@ h5 {
   .containerFlex {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: .2rem; } }
+  gap: .2rem; 
+  margin-left: 32px; } }
 
 .flex1 {
   display: flex;
@@ -117,7 +120,8 @@ h5 {
 
 @media (min-width: 1440px) {
   .flex1 {
-    margin-left: 32px; } }
+    margin-left:7px;
+    gap: .2rem; } }
 
 .flex2 {
   display: flex;
@@ -156,13 +160,15 @@ hr {
 
 @media (min-width: 1440px) {
   .footerClass {
-    margin-left: 32px; } }
+    margin-left: 32px;
+    justify-content: flex-start; } }
 
 .footerClass p {
   margin-left: 6px !important; }
 
 .footerClass h5 {
-  align-self: flex-start; }
+  align-self: flex-start; 
+  margin-bottom: 15px; }
 
 @media (min-width: 1440px) {
   .footerClass h5 {
