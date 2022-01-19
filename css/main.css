@@ -178,3 +178,15 @@ hr {
   border: 2px solid white;
   border-radius: 50%;
   padding: 2px; }
+
+.centerAtribution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerAtribution p {
+  color: white;
+  text-align: center;
+}
