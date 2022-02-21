@@ -168,7 +168,7 @@ hr {
   margin-left: 6px !important; }
 
 .footerClass h5 {
-  align-self: flex-start; 
+  align-self: flex-start;
   margin-bottom: 15px; }
 
 @media (min-width: 1440px) {
@@ -180,14 +180,30 @@ hr {
   border-radius: 50%;
   padding: 2px; }
 
-.centerAtribution {
+.centerAttribution {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: .4rem;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
 }
 
-.centerAtribution p {
+.centerAttribution p {
+  font-size: .6rem;
   color: white;
-  text-align: center;
+  text-align: center!important;
+  margin: 0px;
+}
+
+@media (min-width: 1440px) {
+.centerAttribution p {
+  font-size: .7rem;
+  }
+}
+
+.centerAttribution a:link {
+  color: white;
 }
